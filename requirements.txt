@@ -1,0 +1,9 @@
+huggingface_hub>=0.18.0
+llama-cpp-python>=0.2.20
+fastapi
+uvicorn
+pydantic
+numpy
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+pgvector>=0.3.0
