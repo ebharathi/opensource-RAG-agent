@@ -1,6 +1,7 @@
 venv/
 __pycache__/
-models/
+models/*
+!models/README*
 .env
 .DS_Store
 .vscode/

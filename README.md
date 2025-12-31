@@ -8,3 +8,6 @@ curl -X POST "http://localhost:8000/store" \
     "chunk_size": 500,
     "overlap": 50
   }'
+
+
+For Docker setup,download the model to your local models/ folder then run docker compose which will mount the models/ to container
