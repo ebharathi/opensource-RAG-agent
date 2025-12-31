@@ -22,3 +22,11 @@ class StoreDocumentResponse(BaseModel):
     chunks_count: int
     message: str
 
+
+class ChatRequest(BaseModel):
+    message: str
+
+
+class ChatResponse(BaseModel):
+    response: str
+
