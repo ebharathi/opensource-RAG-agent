@@ -1,5 +1,5 @@
 hf download bartowski/granite-embedding-278m-multilingual-GGUF   --include "*Q8_0.gguf"   --local-dir models   
-
+hf download NexaAI/DeepSeek-OCR-GGUF   --include "*Q4_0.gguf"   --local-dir models
 
 curl -X POST "http://localhost:8000/store" \
   -H "Content-Type: application/json" \
